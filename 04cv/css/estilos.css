@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: ;
+}
+body{
+    background-color: #ffdfd3;
+    width: 100%;
+
+}
+
+h1{
+    background-color: #d291bc ;
+    width: 100%;
+    height: 50px;
+    padding: 30px 10px 30px 10px;
+    color: #ffffff;
+}
+
+h2{
+    background-color: #fec8d8;
+    width: 100%;
+    height: 35px;
+    padding: 25px 10px 25px 10px;
+    color: #957dad;
+}
+
+footer{
+    background-color: #d291bc;
+    width: 100%;
+    height: 10px;
+    padding: 50px 10px 50px 10px;
+    color: #ffffff;
+}
+
+
+span{
+    
+}
