@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4f4f4;
+}
+
+.menu{
+    background-color: #e9183b;
+    height: 75px;
+    width: 140vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1PX solid #ffffff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+
+.logo{
+    width: 10vh;
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu-items li {
+    border-radius: 3px;
+    margin: 0 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.menu-items li {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.menu-items li:hover, li:active{
+    background-color: rgba(0, 0, 0, .3);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.boton-menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
+/* Creamos una clase para mostrar u ocultar el menu hamburguesa */
+ul.show{
+    top: 65px;
+}
+
+/* Media query */
+@media screen and (max-width: 952px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+
+    .menu-items li a {
+        font-size: 16px;
+    }
+}
+
+
